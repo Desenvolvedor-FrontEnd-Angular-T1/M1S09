@@ -1,0 +1,50 @@
+table {
+  width: 650px;
+  border: 2px solid #28a56b;
+}
+
+caption {
+  font-size: 24px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+tbody tr {
+  background-color: #ffffff;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #a5f2c1;
+}
+
+tr:hover {
+  font-weight: bold;
+}
+
+th {
+  border: 2px solid #28a569;
+  padding: 4px 8px;
+}
+
+td {
+  border: 1px dashed #15542d;
+  padding: 4px 8px;
+  text-align: center;
+}
+
+.cabecalho {
+  background-color: #196e43;
+  color: #ffffff;
+}
+
+button {
+  width: 85px;
+  height: 25px;
+  background-color: white;
+  border: 1px solid #28a56b;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  font-weight: bold;
+}

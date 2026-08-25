@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="exemplo_tabela.css">
+  <title>Exemplo Tabelas</title>
+</head>
+<body>
+  <table border="1">
+    <caption>Exemplo Tabela Vertical</caption>
+    <colgroup>
+      <col class="nome">
+      <col class="telefone">
+      <col class="telefone">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th colspan="2">Telefone</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Eduardo</td>
+        <td>99996-2456</td>
+        <td>1234-3251</td>
+      </tr>
+      <tr>
+        <td>João</td>
+        <td>99996-9876</td>
+        <td>7896-4565</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Nomes</td>
+        <td colspan="2">Telefones</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <hr>
+
+  <table border="1">
+    <caption>Exemplo Tabela Horizontal</caption>
+    <colgroup>
+      <col class="cabecalho">
+      <col class="corpo">
+      <col class="corpo">
+    </colgroup>
+    <tr>
+      <th>Nome</th>
+      <td>Eduardo</td>
+      <td>João</td>
+    </tr>
+    <tr>
+      <th rowspan="2">Telefone</th>
+      <td>99996-2456</td>
+      <td>99996-9876</td>
+    </tr>
+    <tr>
+      <td>1234-3251</td>
+      <td>7896-4565</td>
+    </tr>
+  </table>
+</body>
+</html>
