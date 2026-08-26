@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./exemplo_formulario.js" defer></script>
+  <title>Exemplo Formulário</title>
+</head>
+<body>
+  <form action="" method="get">
+    <fieldset>
+      <label for="seletor">Frutas</label>
+      <select id="seletor">
+        <option value="1">Banana</option>
+        <option value="2">Maça</option>
+        <option value="3">Laranja</option>
+      </select>
+
+      <label for="area">Observação</label>
+      <textarea id="area" minlength="5" maxlength="20"></textarea>
+    </fieldset>
+
+    <fieldset>
+      <label for="nome">Nome Completo</label>
+      <input id="nome" type="text" required>
+
+      <label for="dtNasc">Data Nasc.</label>
+      <input id="dtNasc" type="date">
+
+      <label for="mail">E-mail</label>
+      <input id="mail" type="email">
+
+      <label for="idade">Idade</label>
+      <input id="idade" type="number" min="0" max="125">
+
+      <label for="senha">Senha</label>
+      <input id="senha" type="password">
+    </fieldset>
+
+    <fieldset>
+      <label for="html">HTML</label>
+      <input id="html" type="checkbox">
+      <label for="css">CSS</label>
+      <input id="css" type="checkbox">
+      <label for="js">JavaScript</label>
+      <input id="js" type="checkbox">
+    </fieldset>
+
+    <fieldset>
+      <label for="manha">Manhã</label>
+      <input id="manha" name="periodo" type="radio">
+      <label for="tarde">Tarde</label>
+      <input id="tarde" name="periodo" type="radio">
+      <label for="noite">Noite</label>
+      <input id="noite"name="periodo" type="radio">
+    </fieldset>
+
+    <button>Botão Ação</button>
+    <button type="button" onclick="botaoConfirmar()">Botão Botão</button>
+    <button type="reset">Botão Reset</button>
+    <button type="submit">Botão Submit</button>
+  </form>
+</body>
+</html>
