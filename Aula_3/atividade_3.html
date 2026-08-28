@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="atividade_3.css">
+  <script src="./atividade_3.js" defer></script>
+  <title>Cadastro Produto</title>
+</head>
+
+<body>
+  <h1>Cadastro do Produto</h1>
+  <form>
+    <div class="campos">
+      <div class="campo">
+        <label for="produto">Nome do Produto *</label>
+        <input id="produto" type="text" placeholder="Digite o nome do produto" required>
+      </div>
+      <div class="campo">
+        <label for="categoria">Categoria *</label>
+        <select id="categoria" value="">
+          <option value="">-- Selecione um item --</option>
+          <option value="Informática">Informática</option>
+          <option value="Acessórios">Acessórios</option>
+        </select>
+      </div>
+      <div class="campo">
+        <label for="preco">Preço *</label>
+        <input id="preco" type="text" required>
+      </div>
+      <div class="campo">
+        <label for="estoque">Estoque *</label>
+        <input id="estoque" type="number" min="0" required>
+      </div>
+    </div>
+
+    <button id="btnCadastrar" type="submit" class="btn-base cadastrar" disabled>Cadastrar</button>
+
+    <button type="reset" class="btn-base limpar">Limpar</button>
+  </form>
+
+  <hr>
+
+  <h1>Itens Cadastrados</h1>
+  <table>
+    <thead class="cabecalho">
+      <tr>
+        <th>Produto</th>
+        <th>Categoria</th>
+        <th>Preço</th>
+        <th>Estoque</th>
+        <th>Situação</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</body>
+
+</html>

@@ -13,17 +13,20 @@
   <form>
     <div>
       <label for="usuario">Usuário</label>
-      <input id="usuario" type="email" placeholder="Digite e-mail de usuário">
+      <input id="usuario" type="email" placeholder="Digite e-mail de usuário" required>
     </div>
 
     <div>
       <label id="labelSenha" for="senha">Senha</label>
-      <input id="senha" type="password" placeholder="Senha">
+      <input id="senha" type="password" placeholder="Senha" required>
+      <button id="btnMostrarSenha" type="button" onclick="mostrarSenha()">Mostrar Senha</button>
     </div>
 
-    <button id="btnEntrar" class="entrar" disabled>Entrar</button>
+    <button id="btnEntrar" class="btn-base entrar" disabled>Entrar</button>
 
-    <button class="cadastrar">Cadastre-se</button>
+    <a href="../Aula_3/atividade_1.html">
+      <button type="button" class="btn-base cadastrar">Cadastre-se</button>
+    </a>
   </form>
 </body>
 

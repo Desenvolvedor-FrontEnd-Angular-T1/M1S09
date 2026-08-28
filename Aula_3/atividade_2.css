@@ -1,0 +1,28 @@
+table {
+  width: 650px;
+  border: 2px solid #858585;
+}
+
+tbody tr {
+  background-color: #e7e7e7;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.cabecalho-principal {
+  background-color: #aeacac;
+}
+
+.cabecalho-secundario {
+  background-color: #d9d9d9;
+}
+
+.aprovado {
+  color: green;
+}
+
+.reprovado {
+  color: red;
+}
